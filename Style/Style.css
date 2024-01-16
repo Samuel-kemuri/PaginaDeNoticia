@@ -4,6 +4,15 @@
     margin: 0;
 }
 
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+}
+
 header li  {
     display: inline;
 }
@@ -13,6 +22,29 @@ header li  {
     margin: 0 auto;
 }
 
-section .article{
+section .article {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img {
+    height: 180px;
+}
+
+.article article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .article article {
+    padding-bottom: 16px;
+}
+
+.article article h3 {
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
