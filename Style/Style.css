@@ -7,14 +7,25 @@
 body > header {
     background-color: #2f3640;
     padding: 16px 0;
+    color: #f5f6fa;
 }
 
 header .container {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header li  {
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
 }
 
 .container {
@@ -29,7 +40,7 @@ section .article {
 }
 
 .article article img {
-    height: 180px;
+    width: 100%;
 }
 
 .article article {
@@ -45,6 +56,29 @@ section h2, .article article {
 }
 
 .article article h3 {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 24px;
+}
+
+.article article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.article article a:hover {
+    text-decoration: underline;
+}
+
+.article article p, .article article a {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+    font-size: 32px;
 }
